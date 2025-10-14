@@ -38,7 +38,6 @@ import java.util.function.Supplier;
  * @param <E> the type of elements held in the source collection
  *
  * @author <a href="mailto:abbbrs@icloud.com">Aleksei Baranov</a>
- * @since 1.0
  */
 public sealed interface RankedCollection<E> permits RankedCollectionFloatUlp {
 

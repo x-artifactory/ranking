@@ -17,7 +17,7 @@
 
 	<groupId>io.github.x-artifactory</groupId>
 	<artifactId>ranking-strategy</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>jar</packaging>
 	<name>Ranking Strategy Framework</name>
 	<description>The Ranking Strategy Framework is a simple, yet flexible and robust tool for addressing hierarchical
@@ -92,6 +92,7 @@
 						<executions>
 							<execution>
 								<id>attach-sources</id>
+								<phase>verify</phase>
 								<goals>
 									<goal>jar-no-fork</goal>
 								</goals>
@@ -105,14 +106,17 @@
 						<version>3.12.0</version>
 						<executions>
 							<execution>
-								<id>attach-javadocs</id>
+								<id>attach-javadoc</id>
 								<goals>
 									<goal>jar</goal>
 								</goals>
 							</execution>
 						</executions>
+						<configuration>
+							<stylesheet>java</stylesheet>
+							<doclint>none</doclint>
+						</configuration>
 					</plugin>
-
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-gpg-plugin</artifactId>
@@ -126,6 +130,12 @@
 								</goals>
 							</execution>
 						</executions>
+						<configuration>
+							<gpgArguments>
+								<arg>--pinentry-mode</arg>
+								<arg>loopback</arg>
+							</gpgArguments>
+						</configuration>
 					</plugin>
 
 				</plugins>
