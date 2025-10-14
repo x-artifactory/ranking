@@ -7,7 +7,6 @@
  * <p>For usage examples and design rationale see: {@link io.github.x.artifactory.strategy.ranking.api.RankedCollection} and
  * {@link io.github.x.artifactory.strategy.ranking.api.RankWrapper}.
  *
- * @since 1.0
  * @author <a href="mailto:abbbrs@icloud.com">Aleksei Baranov</a>
  */
 package io.github.x.artifactory.strategy.ranking.api;
