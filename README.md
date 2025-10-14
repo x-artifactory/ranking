@@ -15,7 +15,7 @@ Its API consists of only two elements that are a collection interface providing 
 
 Here is how to use it:
 ```
-// results come out in any unexpected order
+// initial unordered collection 
 final Collection<Response> responses = responseAsyncGenerator();
 
 // instantiation of the RankedCollection with ranking rules supplier 
