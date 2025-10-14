@@ -17,7 +17,7 @@
 
 	<groupId>io.github.x-artifactory</groupId>
 	<artifactId>ranking-strategy</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Ranking Strategy Framework</name>
 	<description>The Ranking Strategy Framework is a simple, yet flexible and robust tool for addressing hierarchical
