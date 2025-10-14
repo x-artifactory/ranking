@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: logback-core-1.5.8.jar spring-boot-autoconfigure-3.3.4.jar s
+ pring-jcl-6.1.13.jar spring-core-6.1.13.jar logback-classic-1.5.8.jar s
+ pring-aop-6.1.13.jar spring-boot-starter-3.3.4.jar log4j-to-slf4j-2.23.
+ 1.jar snakeyaml-2.2.jar micrometer-observation-1.13.4.jar spring-contex
+ t-6.1.13.jar spring-boot-starter-logging-3.3.4.jar log4j-api-2.23.1.jar
+  spring-beans-6.1.13.jar jakarta.annotation-api-2.1.1.jar spring-boot-3
+ .3.4.jar spring-expression-6.1.13.jar micrometer-commons-1.13.4.jar jul
+ -to-slf4j-2.0.16.jar slf4j-api-2.0.16.jar
