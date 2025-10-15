@@ -71,7 +71,7 @@
 
 	<profiles>
 		<profile>
-			<id>release</id>
+			<id>sonatypeDeploy</id>
 			<build>
 				<plugins>
 					<plugin>
