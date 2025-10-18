@@ -83,8 +83,4 @@ Incorporate this framework into your project by including Maven dependencies int
 <!-- CONTACT -->
 ### Contact
 
-Project Link: [https://github.com/x-artifactory/ranking](https://github.com/x-artifactory/ranking)
-
-email: abbbrs@icloud.com 
-
-Write for Alexey Baranov, preferably in French, English, Russian or Portuguese languages.
+Email Aleksei Baranov at abbbrs@icloud.com with the subject line "Ranking Strategy Framework" in English, French, Portuguese, Russian or Spanish.  
