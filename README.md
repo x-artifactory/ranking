@@ -70,17 +70,16 @@ The next point is that the use of floating-point type ranking criteria reveals a
 To get around this difficulty, we first create an ordered sequence of disjoint intervals made up from sorted initial floating-point number values in such a way that any interval contains its first value followed by all values, each of which is equal to a value immediately preceding it, given equality is estimated with a certain tolerance; secondly we exclude the direct raw use of floating-point numbers in sorting by translating them into integer type indexes of intervals they are falling into.
 
 ### Installation
-
-Incorporate this framework into your project by including Maven dependencies into your pom.xml file:
+Incorporate this framework into your project by including its Maven dependency in the pom.xml file.
 ```
 <dependency>
 	<groupId>io.github.x-artifactory</groupId>
 	<artifactId>ranking-strategy</artifactId>
+	<version>0.1.0</version>
 </dependency>
 ```
 
 
 <!-- CONTACT -->
 ### Contact
-
 Email Aleksei Baranov at abbbrs@icloud.com with the subject line "Ranking Strategy Framework" in English, French, Portuguese, Russian or Spanish.  
